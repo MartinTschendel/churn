@@ -10,3 +10,5 @@ The dataset is available on: https://www.kaggle.com/blastchar/telco-customer-chu
 * the notebook 200909-churn further introduces metrics ROC (receiver operating characteristics) curve, what checks the performance of a classifier over different thresholds. Here, the specific focus is put on 2 metrics: TPR (True Positive Rate) and FPR (False Positive Rate)
 
 * 2020-09-14: also the AUC (Area under the ROC curve), k-fold cross-validation and the adjustment of the regularization parameter 'C' are introduced in the notebook 200909-churn now
+
+* 2020-09-17: in the notebook 200914-churn, I analyzed precision and recall for different thresholds. Also tried to plot a 'precision recall curve' but I am not sure if the shape of the curve is correct
