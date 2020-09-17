@@ -11,4 +11,4 @@ The dataset is available on: https://www.kaggle.com/blastchar/telco-customer-chu
 
 * 2020-09-14: also the AUC (Area under the ROC curve), k-fold cross-validation and the adjustment of the regularization parameter 'C' are introduced in the notebook 200909-churn now
 
-* 2020-09-17: in the notebook 200914-churn, I analyzed precision and recall for different thresholds. Also tried to plot a 'precision recall curve' but I am not sure if the shape of the curve is correct
+* 2020-09-17: in the notebook 200914-churn, I analyzed precision and recall for different thresholds. Also plotted a 'precision recall curve'. The goal is that this curve is as closely as possible to the ideal model and as far as possible from the baseline. More information can be found on this [link](https://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html#:~:text=The%20precision%2Drecall%20curve%20shows,a%20low%20false%20negative%20rate)
